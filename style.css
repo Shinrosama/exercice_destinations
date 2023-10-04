@@ -1,0 +1,224 @@
+/* ----- bases de mon doc------- */
+
+
+@font-face {
+    font-family: 'Roboto Regular'; /*a name to be used later*/
+    src: url('font/Roboto/Roboto-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Roboto Bold'; /*a name to be used later*/
+    src: url('font/Roboto/Roboto-Bold.ttf'); /*URL to font*/
+}
+
+/* ----je défini les propriété globales------ */
+
+
+header {
+
+    background-color: rgb(96, 89, 89);
+    color: white;
+    text-align: right;
+    padding: 1rem 0;
+}
+
+ul>li {
+    color: white;
+    display: inline;
+    padding-right: 5%;
+
+    
+    
+}
+
+h2 {
+    font-family: "Roboto Bold";
+    text-decoration: none;
+    font-size: 2.5rem;
+
+}
+
+p {
+    font-family: "Roboto Regular";
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+a {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    font-family: "Roboto Regular";
+    text-decoration: none;
+
+}
+
+/* -----Mes bouttons----- */
+
+.btn:hover {
+   
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+
+}
+
+.btn.bouton_1 {
+
+    display: block;
+    margin: auto;
+
+    width: 150px;
+    padding: 15px 40px;
+    border-radius: 0px;
+    margin-top: 20px;
+    
+    color: white;
+    background-color: blueviolet;
+    
+}
+
+.btn.bouton_2 {
+
+    display: block;
+    margin: auto;
+ 
+    width: 160px;
+    padding: 15px 40px;
+    border-radius: 0px;
+    margin-top: 20px;
+
+    color: white;
+    background-color: rgb(226, 50, 50);
+
+}
+
+.btn.bouton_3 {
+
+    display: block;
+    margin: auto;
+
+    width: 200px;
+    padding: 15px 40px;
+    border-radius: 0px;
+    margin-top: 20px;
+
+    color: white;
+    background-color: rgb(69, 69, 156);
+
+}
+
+/* ------- sections des destinations--------- */
+
+main {
+    position: relative;
+
+    height: 70vh;
+    padding-top: 6%;
+    margin-left: 15%;
+    margin-right: 15%;
+      
+}
+
+.flex-container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ------Paris------ */
+
+.paris {
+    
+
+    border: solid;
+    box-shadow: 10px 11px 6px -2px rgba(0,0,0,0.31);
+    -webkit-box-shadow: 10px 11px 6px -2px rgba(0,0,0,0.31);
+    -moz-box-shadow: 10px 11px 6px -2px rgba(0,0,0,0.31);
+
+    height: 62vh;
+    width: 40vh;
+
+
+    
+
+}
+
+.paris_1 {
+
+    height: 40vh;
+
+    background-image: url(images/paris.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.paris_texte {
+
+        padding: 20px;
+}
+
+
+
+/* ------Tokyo------ */
+
+
+.tokyo {
+
+    
+
+    border: solid;
+    box-shadow: 10px 11px 6px -2px rgba(0,0,0,0.31);
+    -webkit-box-shadow: 10px 11px 6px -2px rgba(0,0,0,0.31);
+    -moz-box-shadow: 10px 11px 6px -2px rgba(0,0,0,0.31);
+
+    height: 62vh;
+    width: 40vh;
+}
+
+.tokyo_1 {
+
+    height: 40vh;
+
+    background-image: url(images/tokyo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tokyo_texte {
+
+    padding: 20px;
+}
+
+
+/* -----New-York----- */
+
+
+.new-york {
+
+
+    
+    border: solid;
+    box-shadow: 10px 11px 6px -2px rgba(0,0,0,0.31);
+    -webkit-box-shadow: 10px 11px 6px -2px rgba(0,0,0,0.31);
+    -moz-box-shadow: 10px 11px 6px -2px rgba(0,0,0,0.31);
+
+    height: 62vh;
+    width: 40vh;
+}
+
+.new-york_1 {
+
+    height: 40vh;
+
+    background-image: url(images/new-york.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.new-york_texte {
+
+    padding: 20px;
+}
